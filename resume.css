@@ -1,0 +1,99 @@
+/* Name:JIAXIN YAN
+Student number: 041092597
+File name: resume.css
+Lab Professor: Alem Legesse
+The date the page was created:5/11/23
+Due Date: 5 Nov 2023
+Description: Week 9 demo/ Assignment 1*/
+.topnav {
+    display: flex;
+    justify-content: center; 
+    background-color:#c4b2a8;
+    overflow: hidden;
+    margin: 0 0 0 0;
+}
+.topnav a {
+    color: #352114;
+    font-family: system-ui;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 50px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: #352114;
+    border-radius: 50px;
+}
+
+.topnav a.active {
+    background-color: #6e5c5c;
+    color: #352114;
+}
+/* Styles for the body and background image */
+body{
+    background-image: url(./img/pexels-la-miko-3616764.jpg);
+    background-size: cover;
+    font-family: 'Nunito', sans-serif;
+    color:#352114;
+    font-size: 20px;
+    line-height: 1.5; 
+
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.bold{
+    font-weight: bold;
+}
+.title{
+    text-align: center;
+    line-height: 1.5;
+}
+
+.jobtitle{
+    text-decoration: underline;
+}
+.workdate{
+    font-weight: bold;
+}
+.infocontent{
+    flex-direction: row;
+    text-align: left;
+}
+
+a:link,a:hover,a:visited{
+    color: #352114; 
+}
+#mypho {
+    float: right; 
+    width: 230px; 
+    height: auto ; 
+}
+.content{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+@media screen and (max-width: 600px) {
+    body {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    .content{
+        margin-left: 8%;
+        margin-right: 8%; 
+    }
+    .infocontent{
+        margin-left: 8%;
+        margin-right: 11%; 
+    }
+    #mypho{
+        width: 100%;
+        height: auto;
+    }
+}

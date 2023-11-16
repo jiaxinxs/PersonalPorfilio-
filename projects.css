@@ -1,0 +1,110 @@
+/* Name:JIAXIN YAN
+Student number: 041092597
+File name: projects.css
+Lab Professor: Alem Legesse
+The date the page was created:5/11/23
+Due Date: 5 Nov 2023
+Description: Week 9 demo/ Assignment 1 */
+/* Styles for the top navigation bar */
+.topnav {
+    display: flex;
+    justify-content: center; 
+    background-color:#665b5a;
+    overflow: hidden;
+}
+.topnav a {
+    color: #352114;
+    font-family: system-ui;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 50px;
+}
+
+.topnav a:hover {
+    background-color: #ded4ca;
+    color: #7d5c49;
+    border-radius: 50px;
+}
+
+.topnav a.active {
+    background-color: #7e5d4a;
+    color: #352114;
+}
+/* Styles for the body, background image, and text */
+body{
+    background-image:url(./img/workspace-1280538_1280.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Nunito', sans-serif;
+    color:#352114;
+    font-size: 20px;
+}
+/* Styles for the project slide container */
+.slide-container {
+    display:flex;
+    text-align: left;
+    padding: 20px;
+    background-color: #bca38787;
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    width: 48%;
+    height: 300px;
+    margin-left: 2%;
+}
+/* Styles for the content inside the project slide */
+.slide-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+/* Styles for project information */
+#info {
+    text-align: left;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    margin: 0;
+}
+/* Styles for the project navigation buttons */
+.btn{
+    margin-left: 3%;
+    background-color: rgba(181, 130, 100, 0.773);
+    border-radius: 15px;
+}
+/* Styles for images inside the project slide */
+img{
+    width: 60%;
+}
+/* Media query for smaller screens (max-width: 600px) */
+@media screen and (max-width: 600px) {
+    body {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    .slide-container {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10%;
+        padding-bottom: 0;
+        height: auto;
+        display: flex; 
+        flex-direction: column; 
+        text-align: center; 
+    }
+    .slide-content {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+    img {
+        width: 100%; 
+    }
+}

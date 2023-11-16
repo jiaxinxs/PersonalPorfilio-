@@ -1,0 +1,87 @@
+/* Name:JIAXIN YAN
+Student number: 041092597
+File name: index.css
+Lab Professor: Alem Legesse
+The date the page was created:5/11/23
+Due Date: 5 Nov 2023
+Description: Week 9 Web demo/ Assignment 1 */
+
+/* Navigation Bar Styles */
+.topnav {
+    display: flex;
+    justify-content: center; 
+    background-color:#151539;
+    overflow: hidden;
+
+
+}
+
+.topnav a {
+    float: left;
+    color: #FF6800;
+    font-family: system-ui;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 50px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 50px;
+}
+
+.topnav a.active {
+    background-color: #303c5b;
+    color: #FF6800;
+    border-radius: 50px;
+}
+/* Overall Page Styles */
+body{
+    background-image: url(./img/Image_202310311509321.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Nunito', sans-serif;
+    color:#c9d1d3a5;
+}
+.yellow-text{
+    color:#FF6800;
+}
+h1{
+    font-size:50px;
+    margin-top:10%; 
+    margin-bottom: 5px;
+    padding: 50px; 
+    text-align: justify; 
+}
+.body{
+    font-size: 20px;
+    margin-top:10%
+}
+.text-container {
+    font-size: 15px;
+    width: 30%;
+    left: 20px; 
+    padding: 50px; 
+    text-align: justify; 
+    line-height: 1.5; 
+}
+
+a:link,a:hover,a:visited{
+    color: #FF6800; 
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column; 
+        align-items: center; 
+    }
+    body {
+        align-items: center; 
+    }
+    .text-container{
+        width: 70%;
+    }
+}

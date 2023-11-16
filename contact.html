@@ -1,0 +1,42 @@
+<!--Name:JIAXIN YAN
+Student number: 041092597
+File name: contact.html
+Lab Professor: Alem Legesse
+The date the page was created:5/11/23
+Due Date: 5 Nov 2023
+Description: Week 9 demo/ Assignment 1 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jiaxin Yan">
+    <meta name="keywords" content="CST8284, Jiaxin, Jiaxin's profile">
+    <link rel="stylesheet" href="./contact.css">
+    <title>ContactMe</title>
+</head>
+<body>
+    <div class="topnav">
+        <a href="./index.html">Myself</a>
+        <a href="./resume.html">My Resume</a>
+        <a href="./projects.html">My Projects</a>
+        <a class="active" href="./contact.html">Contact Me</a>
+    </div>
+    <div class="contactform">
+        <h1>Please fill this form if you have any question!</h1>
+        <form action="Assignment1Form.php" method="post">
+            <fieldset>
+                <div class="info">
+                    <!-- Input fields for name and email -->
+                    <input type ="text" id = "firname" name ="firstname" placeholder="Your Name" size="30"> 
+                    <input type ="email" id = "ema" name ="ema" placeholder="Your Email" size="30">
+                </div>
+                <!-- Textarea for message -->
+                <textarea name="rea" id="rea" rows="5" cols="30" placeholder="Your Message"></textarea>
+            </fieldset>
+            <!-- Submit button for the form -->
+            <input id="button" type="Submit">
+        </form> 
+    </div>
+    <div><footer>Jiaxin Yan. 2023 Copyright</footer></div>
+</body>
